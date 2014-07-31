@@ -1,0 +1,29 @@
+<script>
+
+(function() {
+
+	var min = 1;
+	var max = 101;
+
+	var printThree = "Crackle";
+	var printFive = "Pop";
+
+	for (i = min; i < max; i++) {     
+	    if (i % 3 == 0) {
+	    	if (i % 5 == 0) {
+		    	console.log(printThree+printFive);
+		    }
+		    else {
+		  	  console.log(printThree);
+		    }
+	    }
+	    else if (i % 5 == 0) {
+	    	console.log(printFive);
+	    }
+	    else {
+	    	console.log(i);
+	    }
+	}
+})();	
+
+</script>
